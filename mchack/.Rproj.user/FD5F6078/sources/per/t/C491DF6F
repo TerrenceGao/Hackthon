@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523718548796.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3493637378",
+    "id" : "C491DF6F",
+    "lastKnownWriteTime" : 1523738838,
+    "last_content_update" : 1523738838476,
+    "path" : "E:/mchack/code.R",
+    "project_path" : "code.R",
+    "properties" : {
+        "cursorPosition" : "110,31",
+        "scrollLine" : "95",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,19 @@
+#test
+
+test$bmi<-impute(test$bmi, median)
+test$smoking_status[which(test$smoking_status=='')]<-"unknown"
+test$smoking_status_value<-1
+test<-spread(test,smoking_status,smoking_status_value)
+unique(train1$work_type)
+test[is.na(test)]<-0
+test$bmi<-as.numeric(test$bmi)
+
+test$gender<-ifelse(test$gender=='Male',1,0)
+test$ever_married<-ifelse(test$ever_married=='Yes',1,0)
+test$Residence_type<-ifelse(test$Residence_type=='Urban',1,0)
+test$work_type_value<-1
+test<-spread(test,work_type,work_type_value)
+test[is.na(test)]<-0
+
+test<-data.matrix(test)
+test<-Matrix(test, sparse=TRUE)
